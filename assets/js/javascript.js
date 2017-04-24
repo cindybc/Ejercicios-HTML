@@ -231,5 +231,6 @@ var res=[
   }
 ]
 res.forEach(function(el){
+  document.write("<h2>"+ "Trabajador " + el.id + "</h2>");
   document.write("<div>" + "<b>"+"Nombre: "+ "</b>"+ el.name + "<br>"+ "<b>" + "Calle: " +"</b>"+ el.address.street+ "<br>"+ "<b>" + "Ciudad: " + "</b>" + el.address.city+ "<br>"+"<br>" + "</div>");
 });
